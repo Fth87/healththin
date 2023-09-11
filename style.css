@@ -1,0 +1,854 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navbar */
+
+.clock {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.inner-navbar {
+  max-width: 1440px;
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+}
+
+.navbar-nav {
+  margin-right: 10%;
+}
+
+.nav-logo {
+  color: #7353d9;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin: auto 10px;
+}
+
+.nav-logo span {
+  color: #688bfe;
+}
+
+.nav-item {
+  margin: 0px 17px;
+}
+
+.nav-item a {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+}
+
+.navbar {
+  transition-timing-function: ease-in-out;
+  transition: 0.2s;
+  backdrop-filter: blur(5px);
+  padding: 0px;
+  margin: 0px;
+  background: rgb(255, 255, 255);
+  /* box-shadow: black ; */
+  /* position: absolute */
+}
+
+.menu {
+  color: #000;
+  /* font-size: 16px; */
+  font-weight: 400;
+  background: rgb(245, 245, 245);
+  backdrop-filter: blur(5px);
+}
+
+@media only screen and (min-width: 768px) {
+  .menu {
+    background: none;
+
+    backdrop-filter: none;
+  }
+}
+
+.logo h2 {
+  font-size: 23px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo h2 {
+    font-size: 35px;
+  }
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Navbar end */
+
+@media only screen and (min-width: 992px) {
+}
+
+#home {
+  margin-top: 100px;
+}
+
+/* Welcome__________________________________________ */
+
+.welcome {
+  border-radius: 20px;
+  background: #7353d9;
+}
+
+.welcome-container {
+  width: 80%;
+  height: 80%;
+  /* margin: auto; */
+  margin: 10% auto;
+}
+
+.welcome-judul {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.welcome-isi {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.welcome-isi p {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+#home .gambar {
+  border-radius: 20px;
+  background: #d252b6;
+  padding: 0;
+  overflow: hidden;
+}
+
+.gambar img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#home .jam {
+  border-radius: 20px;
+  background: #d252b6;
+  overflow: hidden;
+}
+
+.jam p {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.alarm {
+  bottom: -26px;
+  right: -29px;
+  width: 131px;
+
+  height: 167px;
+}
+
+@media only screen and (min-width: 992px) {
+  .jam p {
+    color: #fff;
+
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .welcome-isi {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 600;
+  }
+  .alarm {
+    bottom: -26px;
+    right: -29px;
+    width: 200px;
+    /* height: 224px; */
+  }
+}
+
+.home2 {
+  /* height: 100%; */
+}
+
+/* Welcome end__________________________________________ */
+
+/* todo__________________________________________ */
+
+#todo .container-dalam {
+  border-radius: 20px;
+  background: #262626;
+}
+
+.todo-container {
+  width: 80%;
+  margin: auto;
+  padding: 70px 0 100px 0;
+}
+
+.todo-judul {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.todo-header {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.todo-1 {
+  border-radius: 20px;
+  background: #c23939;
+}
+.isi-todo-1 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.isi-todo-1 p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.todo-2 {
+  border-radius: 20px;
+  background: #fff;
+}
+
+.isi-todo-2 {
+  color: #688bfe;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.isi2-todo2 {
+  border-radius: 20px;
+  background: #4d77ff;
+  padding: 20px 15px;
+  margin: 0px 24px;
+}
+
+.isi2-todo-2 svg {
+  margin-left: 8px;
+}
+
+.isi2-todo2 p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.todo-3 {
+  border-radius: 20px;
+}
+
+.todo-3 img {
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
+  border-radius: 30px;
+}
+
+.todo-4 {
+  border-radius: 20px;
+  background: #692727;
+}
+
+.todo-4 h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.todo-4 p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.pertanyaan h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.pertanyaan p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.tombol-submit1 {
+  border-radius: 0px 10px 10px 0px;
+  background: #7353d9;
+  color: #fff;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+}
+
+.jempol {
+  top: -22px;
+  right: -11px;
+  width: 100px;
+}
+
+.air {
+  top: -14px;
+  right: -36px;
+  width: 148px;
+}
+.monyet {
+  bottom: -2%;
+  right: -14%;
+  width: 175px;
+}
+.wajah1 {
+  bottom: -1px;
+  left: -65px;
+  width: 200px;
+}
+
+@media only screen and (min-width: 992px) {
+  .todo-container {
+    width: 80%;
+    margin: auto;
+    padding: 70px 0 160px 0;
+  }
+  .todo-judul {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .todo-header {
+    color: #fff;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .todo-1 {
+    border-radius: 20px;
+    background: #c23939;
+  }
+  .isi-todo-1 {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .isi-todo-1 p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .todo-2 {
+    border-radius: 20px;
+    background: #fff;
+  }
+
+  .isi-todo-2 {
+    color: #688bfe;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .isi2-todo2 {
+    border-radius: 20px;
+    background: #4d77ff;
+    padding: 20px 15px;
+    margin: 0px 24px;
+  }
+
+  .isi2-todo-2 svg {
+    margin-left: 8px;
+  }
+
+  .isi2-todo2 p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .todo-3 {
+    border-radius: 20px;
+  }
+
+  .todo-3 img {
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    border-radius: 30px;
+  }
+
+  .todo-4 {
+    border-radius: 20px;
+    background: #692727;
+  }
+
+  .todo-4 h1 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .todo-4 p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .pertanyaan h1 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .pertanyaan p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .todo-4 h1 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .todo-4 p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .pertanyaan h1 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .pertanyaan p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .tombol-submit1 {
+    border-radius: 0px 10px 10px 0px;
+    background: #7353d9;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+  }
+
+  .jempol {
+    top: -63px;
+    right: -23px;
+    width: 200px;
+  }
+
+  .air {
+    top: -63px;
+    right: -107px;
+    width: 250px;
+  }
+  .monyet {
+    bottom: -84px;
+    right: -16%;
+    width: 300px;
+  }
+  .wajah1 {
+    bottom: 0px;
+    left: -111px;
+    width: 300px;
+  }
+  .tombol-submit1 {
+    border-radius: 0px 10px 10px 0px;
+    background: #7353d9;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+  }
+}
+
+/* todo end__________________________________________ */
+
+/* blog__________________________________________ */
+#blog {
+}
+.blog-judul {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 20px;
+  background: #7353d9;
+}
+.blog-title {
+  width: 776px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.artikel-tanggal {
+  color: #747474;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 4%;
+}
+
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.card {
+  border-radius: 20px;
+  border: none;
+}
+
+.card-text {
+  color: #747474;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.card-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.artikel-genre {
+  border-radius: 30px;
+  background: #f96a6a;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.tombol-artikel {
+  background-color: #fff;
+  border: none;
+}
+
+@media only screen and (min-width: 992px) {
+  #blog {
+  }
+  .blog-judul {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 20px;
+    background: #7353d9;
+  }
+  .blog-title {
+    width: 776px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .artikel-tanggal {
+    color: #747474;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 4%;
+  }
+
+  .card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+  }
+
+  .card {
+    border-radius: 20px;
+    border: none;
+  }
+
+  .card-text {
+    color: #747474;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .card-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .artikel-genre {
+    border-radius: 30px;
+    background: #f96a6a;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .tombol-artikel {
+    background-color: #fff;
+    border: none;
+  }
+}
+
+/* blog end__________________________________________ */
+
+/* FAQ__________________________________________ */
+
+.faq-judul1 {
+  border-radius: 20px;
+  background: #7353d9;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+#faq h1 {
+  color: #0a0a0a;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.tab input,
+.tab .content {
+  display: none;
+}
+.tab input:checked ~ .content {
+  display: block;
+}
+
+.tab {
+}
+
+.judul-table {
+  border-radius: 20px;
+}
+.judul-table p {
+  width: 90%;
+}
+.tab input:checked ~ .judul-table {
+  border-radius: 20px 20px 0 0;
+}
+
+.tab label {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  background: #7353d9;
+  cursor: pointer;
+}
+
+.tab .content {
+  padding: 10px;
+  background: #7353d9;
+  border-radius: 0 0 20px 20px;
+}
+
+.tab label {
+  position: relative;
+}
+.tab label::after {
+  display: block;
+  content: url('public/images/plus.svg');
+  width: 39px;
+  height: 39px;
+
+  position: absolute;
+  right: 13px;
+  top: 24px;
+  transition: all 0.4s;
+}
+.tab input:checked ~ label::after {
+  transform: rotate(45deg);
+}
+
+.tab .content {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 992px) {
+  .faq-judul1 {
+    border-radius: 20px;
+    background: #7353d9;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  #faq h1 {
+    color: #0a0a0a;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .tab input,
+  .tab .content {
+    display: none;
+  }
+  .tab input:checked ~ .content {
+    display: block;
+  }
+
+  .judul-table {
+    border-radius: 20px;
+  }
+  .judul-table p {
+    width: 90%;
+  }
+  .tab input:checked ~ .judul-table {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .tab label {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    background: #7353d9;
+    cursor: pointer;
+  }
+
+  .tab .content {
+    padding: 10px;
+    background: #7353d9;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .tab label {
+    position: relative;
+  }
+  .tab label::after {
+    display: block;
+    content: url('public/images/plus.svg');
+    width: 39px;
+    height: 39px;
+
+    position: absolute;
+    right: 13px;
+    top: 24px;
+    transition: all 0.4s;
+  }
+  .tab input:checked ~ label::after {
+    transform: rotate(45deg);
+  }
+
+  .tab .content {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+/* FAQ end__________________________________________ */
