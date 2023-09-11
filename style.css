@@ -102,6 +102,14 @@ body {
   border-radius: 20px;
   background: #7353d9;
 }
+.welcome1 {
+  border-radius: 20px;
+  background: #c23939;
+}
+
+.sepeda {
+  object-fit: cover;
+}
 
 .welcome-container {
   width: 80%;
@@ -215,6 +223,30 @@ body {
   font-weight: 600;
 }
 
+.todo-header-underline {
+  text-decoration: underline;
+  text-decoration-color: #ffd90f;
+  text-decoration-thickness: 9px;
+}
+
+.todo-11 {
+  border-radius: 20px;
+  background: #ffd90f;
+}
+.isi-todo-11 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.isi-todo-11 p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
 .todo-1 {
   border-radius: 20px;
   background: #c23939;
@@ -246,11 +278,36 @@ body {
   font-weight: 600;
 }
 
+.isi-todo-22 {
+  color: #4e37b3;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
 .isi2-todo2 {
   border-radius: 20px;
   background: #4d77ff;
   padding: 20px 15px;
   margin: 0px 24px;
+}
+.isi2-todo22 {
+  border-radius: 20px;
+  background: #4e37b3;
+  padding: 20px 15px;
+  margin: 0px 24px;
+}
+
+.isi2-todo-22 svg {
+  margin-left: 8px;
+}
+
+.isi2-todo22 p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .isi2-todo-2 svg {
@@ -323,6 +380,16 @@ body {
   border: none;
 }
 
+.tombol-submit11 {
+  border-radius: 0px 10px 10px 0px;
+  background: #c23939;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+}
+
 .jempol {
   top: -22px;
   right: -11px;
@@ -333,6 +400,12 @@ body {
   top: -14px;
   right: -36px;
   width: 148px;
+}
+.gym {
+  top: -49px;
+  right: -70px;
+  width: 250px;
+  z-index: 20;
 }
 .monyet {
   bottom: -2%;
@@ -345,12 +418,41 @@ body {
   width: 200px;
 }
 
+.cjogging {
+  height: auto;
+}
+
+.jogging {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 400px;
+  object-position: center;
+}
+
+.api {
+  top: -32px;
+  right: -14px;
+  width: 100px;
+}
+
 @media only screen and (min-width: 992px) {
+  .cjogging {
+    height: 100%;
+  }
   .todo-container {
     width: 80%;
     margin: auto;
     padding: 70px 0 160px 0;
   }
+
+  .jogging {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+  }
+
   .todo-judul {
     color: #fff;
     font-size: 16px;
@@ -369,15 +471,25 @@ body {
     border-radius: 20px;
     background: #c23939;
   }
+  .todo-11 {
+    border-radius: 20px;
+    background: #ffd90f;
+  }
   .isi-todo-1 {
     color: #fff;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
   }
+  .isi-todo-11 {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+  }
 
-  .isi-todo-1 p {
-    color: #fff;
+  .isi-todo-11 p {
+    color: #000;
     font-family: Poppins;
     font-size: 21px;
     font-style: normal;
@@ -389,6 +501,19 @@ body {
     background: #fff;
   }
 
+  .isi-todo-22 {
+    color: #4e37b3;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .isi2-todo22 {
+    border-radius: 20px;
+    background: #4e37b3;
+    padding: 20px 15px;
+    margin: 0px 24px;
+  }
   .isi-todo-2 {
     color: #688bfe;
     font-size: 30px;
@@ -408,6 +533,17 @@ body {
   }
 
   .isi2-todo2 p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .isi2-todo-22 svg {
+    margin-left: 8px;
+  }
+
+  .isi2-todo22 p {
     color: #fff;
     font-family: Poppins;
     font-size: 16px;
@@ -503,17 +639,37 @@ body {
     font-weight: 600;
     border: none;
   }
+  .tombol-submit11 {
+    border-radius: 0px 10px 10px 0px;
+    background: #c23939;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+  }
 
   .jempol {
     top: -63px;
     right: -23px;
     width: 200px;
   }
+  .gym {
+    top: -4px;
+    right: -115px;
+    width: 230px;
+  }
 
   .air {
     top: -63px;
     right: -107px;
     width: 250px;
+  }
+
+  .api {
+    top: -60px;
+    right: -60px;
+    width: 200px;
   }
   .monyet {
     bottom: -84px;
@@ -534,6 +690,22 @@ body {
     font-weight: 600;
     border: none;
   }
+  .tombol-submit11 {
+    border-radius: 0px 10px 10px 0px;
+    background: #c23939;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .gym {
+    top: -30px;
+    right: -117px;
+    width: 300px;
+  }
 }
 
 /* todo end__________________________________________ */
@@ -548,6 +720,14 @@ body {
   font-weight: 500;
   border-radius: 20px;
   background: #7353d9;
+}
+.blog-judul1 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 20px;
+  background: #c23939;
 }
 .blog-title {
   width: 776px;
@@ -687,9 +867,9 @@ body {
 
 /* FAQ__________________________________________ */
 
-.faq-judul1 {
+.faq-judul2 {
   border-radius: 20px;
-  background: #7353d9;
+  background: #c23939;
   color: #fff;
   font-family: Poppins;
   font-size: 16px;
@@ -713,9 +893,6 @@ body {
   display: block;
 }
 
-.tab {
-}
-
 .judul-table {
   border-radius: 20px;
 }
@@ -734,13 +911,11 @@ body {
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
-  background: #7353d9;
   cursor: pointer;
 }
 
 .tab .content {
   padding: 10px;
-  background: #7353d9;
   border-radius: 0 0 20px 20px;
 }
 
@@ -755,7 +930,7 @@ body {
 
   position: absolute;
   right: 13px;
-  top: 24px;
+  top: 15px;
   transition: all 0.4s;
 }
 .tab input:checked ~ label::after {
@@ -774,6 +949,15 @@ body {
   .faq-judul1 {
     border-radius: 20px;
     background: #7353d9;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .faq-judul2 {
+    border-radius: 20px;
+    background: #c23939;
     color: #fff;
     font-family: Poppins;
     font-size: 16px;
@@ -815,13 +999,13 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    background: #7353d9;
+
     cursor: pointer;
   }
 
   .tab .content {
     padding: 10px;
-    background: #7353d9;
+
     border-radius: 0 0 20px 20px;
   }
 
@@ -839,6 +1023,7 @@ body {
     top: 24px;
     transition: all 0.4s;
   }
+
   .tab input:checked ~ label::after {
     transform: rotate(45deg);
   }
@@ -850,5 +1035,13 @@ body {
     font-style: normal;
     font-weight: 400;
   }
+}
+
+.bg-faq1 {
+  background: #7353d9;
+}
+
+.bg-faq2 {
+  background: #c23939;
 }
 /* FAQ end__________________________________________ */
