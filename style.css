@@ -122,6 +122,10 @@ body {
   border-radius: 20px;
   background: #688bfe;
 }
+.welcome6 {
+  border-radius: 20px;
+  background: #692727;
+}
 
 .sepeda {
   object-fit: cover;
@@ -362,15 +366,28 @@ body {
 }
 .bg-red {
   background: #c23939;
-
+  color: white;
+}
+.bg-red2 {
+  background: #692727;
   color: white;
 }
 .bg-yellow {
   background: #e4bb50;
   color: black;
 }
+.bg-yellow2 {
+  background: #ffd90f;
+
+  color: black;
+}
 
 .todo-11 {
+  border-radius: 20px;
+
+  /* background: #ffd90f; */
+}
+.todo-6 {
   border-radius: 20px;
 
   /* background: #ffd90f; */
@@ -380,15 +397,16 @@ body {
   font-style: normal;
   font-weight: 600;
 }
-
-.isi-todo-11 p {
+.isi-todo-6 {
+  color: #c23939;
   font-family: Poppins;
-  font-size: 15px;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 500;
-  min-height: 200px;
-  max-height: 200px;
-  overflow-y: scroll;
+  font-weight: 600;
+}
+
+.isi-todo-6 .row {
+  border-radius: 20px;
 }
 
 .isi-todo-11 p::-webkit-scrollbar {
@@ -674,6 +692,18 @@ body {
   width: 100px;
   z-index: 20;
 }
+.macan {
+  top: -22px;
+  left: -11px;
+  width: 100px;
+  z-index: 20;
+}
+.burger {
+  top: -22px;
+  right: -25px;
+  width: 150px;
+  z-index: 20;
+}
 
 .air {
   top: -14px;
@@ -726,7 +756,41 @@ body {
   width: 150px;
 }
 
+.aktivitas-todo h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+
+.aktivitas-todo p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+
 @media only screen and (min-width: 992px) {
+  .isi-todo-6 {
+    color: #c23939;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .aktivitas-todo h1 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+  }
+
   .home5 {
     border-radius: 25px;
     max-height: 100%;
@@ -749,6 +813,19 @@ body {
     top: -22px;
     right: -50px;
     width: 100px;
+    z-index: 20;
+  }
+
+  .macan {
+    top: -22px;
+    left: -30px;
+    width: 150px;
+    z-index: 20;
+  }
+  .burger {
+    top: -82px;
+    right: -99px;
+    width: 300px;
     z-index: 20;
   }
 
