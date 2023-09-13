@@ -118,6 +118,10 @@ body {
   border-radius: 20px;
   background: #c23939;
 }
+.welcome5 {
+  border-radius: 20px;
+  background: #688bfe;
+}
 
 .sepeda {
   object-fit: cover;
@@ -296,15 +300,10 @@ body {
 }
 
 .home3 {
-  /* background-image: url('public/images/tos.jpg'); */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   border-radius: 25px;
-  /* overflow: hidden; */
-  /* height: 200px; */
   max-height: 200px;
 }
+
 .home4 {
   border-radius: 20px;
   overflow: hidden;
@@ -312,6 +311,11 @@ body {
   max-height: 500px;
 }
 
+.home5 {
+  border-radius: 25px;
+  max-height: 400px;
+  width: 50%;
+}
 /* Welcome end__________________________________________ */
 
 /* todo__________________________________________ */
@@ -354,6 +358,11 @@ body {
 
 .bg-purple {
   background: #7353d9;
+  color: white;
+}
+.bg-red {
+  background: #c23939;
+
   color: white;
 }
 .bg-yellow {
@@ -407,6 +416,20 @@ body {
 }
 
 .isi-todo-1 p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+.isi-todo-5 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.isi-todo-5 p {
   color: #fff;
   font-family: Poppins;
   font-size: 15px;
@@ -704,6 +727,12 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
+  .home5 {
+    border-radius: 25px;
+    max-height: 100%;
+    width: auto;
+  }
+
   .sipjempol {
     top: -22px;
     right: -70px;
@@ -766,6 +795,12 @@ body {
     border-radius: 20px;
   }
   .isi-todo-1 {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .isi-todo-5 {
     color: #fff;
     font-size: 40px;
     font-style: normal;
@@ -1399,6 +1434,37 @@ body {
   font-weight: 600;
 }
 
+.todo-11 input,
+.isi-todo-5 {
+  display: none;
+}
+.todo-11 input:checked ~ .isi-todo-5 {
+  display: block;
+}
+
+.todo-11 label {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.todo-11 label::after {
+  display: block;
+  content: url('public/images/cursor\ down.svg');
+  width: 29px;
+  height: 27px;
+  margin: auto;
+  transition: all 0.4s;
+}
+.todo-11 input:checked ~ label::after {
+  transform: rotate(180deg);
+}
+
 .tab input,
 .tab .content {
   display: none;
@@ -1413,6 +1479,7 @@ body {
 .judul-table p {
   width: 90%;
 }
+
 .tab input:checked ~ .judul-table {
   border-radius: 20px 20px 0 0;
 }
