@@ -106,6 +106,10 @@ body {
   border-radius: 20px;
   background: #c23939;
 }
+.welcome2 {
+  border-radius: 20px;
+  background: #ffd90f;
+}
 
 .sepeda {
   object-fit: cover;
@@ -126,6 +130,17 @@ body {
 
 .welcome-isi {
   color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+.welcome-judul2 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.welcome-isi2 {
+  color: #000;
   font-size: 40px;
   font-weight: 600;
 }
@@ -161,6 +176,27 @@ body {
   font-style: normal;
   font-weight: 700;
 }
+
+.ketjam {
+  color: #000;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+#home .jam2 {
+  border-radius: 20px;
+  background: #e4bb50;
+  overflow: hidden;
+}
+
+.jam2 p {
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
 .alarm {
   bottom: -26px;
   right: -29px;
@@ -177,8 +213,29 @@ body {
     font-style: normal;
     font-weight: 700;
   }
+
+  .ketjam {
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .jam2 p {
+    color: #000;
+
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+  }
   .welcome-isi {
     color: #fff;
+    font-size: 64px;
+    font-weight: 600;
+  }
+  .welcome-isi2 {
+    color: #000;
     font-size: 64px;
     font-weight: 600;
   }
@@ -229,23 +286,53 @@ body {
   text-decoration-thickness: 9px;
 }
 
+.bg-blue {
+  background: #688bfe;
+  color: white;
+}
+
+.bg-purple {
+  background: #7353d9;
+  color: white;
+}
+.bg-yellow {
+  background: #e4bb50;
+  color: black;
+}
+
 .todo-11 {
   border-radius: 20px;
-  background: #ffd90f;
+
+  /* background: #ffd90f; */
 }
 .isi-todo-11 {
-  color: #000;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
 }
 
 .isi-todo-11 p {
-  color: #000;
   font-family: Poppins;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
+  min-height: 200px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.isi-todo-11 p::-webkit-scrollbar {
+  width: 5px;
+}
+.isi-todo-11 p::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 50px;
+}
+.isi-todo-11 p::-webkit-scrollbar-track {
+  /* background-color: bisque; */
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f500;
+  border-radius: 60px;
 }
 .todo-1 {
   border-radius: 20px;
@@ -284,6 +371,12 @@ body {
   font-style: normal;
   font-weight: 600;
 }
+.isi-todo-23 {
+  color: #c23939;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
 
 .isi2-todo2 {
   border-radius: 20px;
@@ -303,6 +396,20 @@ body {
 }
 
 .isi2-todo22 p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.isi2-todo23 {
+  border-radius: 20px;
+  background: #c23939;
+  padding: 20px 15px;
+  margin: 0px 24px;
+}
+
+.isi2-todo23 p {
   color: #fff;
   font-family: Poppins;
   font-size: 14px;
@@ -330,6 +437,16 @@ body {
   object-fit: cover;
   width: 100%;
   height: 350px;
+  border-radius: 30px;
+}
+.todo-33 {
+  border-radius: 20px;
+}
+
+.todo-33 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
   border-radius: 30px;
 }
 
@@ -389,11 +506,27 @@ body {
   font-weight: 600;
   border: none;
 }
+.tombol-submit2 {
+  border-radius: 0px 10px 10px 0px;
+  background: #ffd90f;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+}
 
 .jempol {
   top: -22px;
   right: -11px;
   width: 100px;
+}
+
+.lope {
+  top: -22px;
+  right: -11px;
+  width: 100px;
+  z-index: 20;
 }
 
 .air {
@@ -411,6 +544,11 @@ body {
   bottom: -2%;
   right: -14%;
   width: 175px;
+}
+.orangtangan {
+  bottom: 0%;
+  right: -15%;
+  width: 150px;
 }
 .wajah1 {
   bottom: -1px;
@@ -437,6 +575,18 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
+  .lope {
+    top: -22px;
+    right: -50px;
+    width: 100px;
+    z-index: 20;
+  }
+
+  .orangtangan {
+    bottom: 0%;
+    right: -15%;
+    width: 300px;
+  }
   .cjogging {
     height: 100%;
   }
@@ -473,7 +623,6 @@ body {
   }
   .todo-11 {
     border-radius: 20px;
-    background: #ffd90f;
   }
   .isi-todo-1 {
     color: #fff;
@@ -482,14 +631,12 @@ body {
     font-weight: 600;
   }
   .isi-todo-11 {
-    color: #000;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
   }
 
   .isi-todo-11 p {
-    color: #000;
     font-family: Poppins;
     font-size: 21px;
     font-style: normal;
@@ -499,6 +646,20 @@ body {
   .todo-2 {
     border-radius: 20px;
     background: #fff;
+  }
+
+  .isi-todo-23 {
+    color: #c23939;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .isi2-todo23 {
+    border-radius: 20px;
+    background: #c23939;
+    padding: 20px 15px;
+    margin: 0px 24px;
   }
 
   .isi-todo-22 {
@@ -544,6 +705,13 @@ body {
   }
 
   .isi2-todo22 p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .isi2-todo23 p {
     color: #fff;
     font-family: Poppins;
     font-size: 16px;
@@ -648,6 +816,15 @@ body {
     font-weight: 600;
     border: none;
   }
+  .tombol-submit2 {
+    border-radius: 0px 10px 10px 0px;
+    background: #ffd90f;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+  }
 
   .jempol {
     top: -63px;
@@ -699,6 +876,15 @@ body {
     font-weight: 600;
     border: none;
   }
+  .tombol-submit2 {
+    border-radius: 0px 10px 10px 0px;
+    background: #ffd90f;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .gym {
@@ -728,6 +914,14 @@ body {
   font-weight: 500;
   border-radius: 20px;
   background: #c23939;
+}
+.blog-judul2 {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 20px;
+  background: #ffd90f;
 }
 .blog-title {
   width: 776px;
@@ -876,6 +1070,15 @@ body {
   font-style: normal;
   font-weight: 500;
 }
+.faq-judul3 {
+  border-radius: 20px;
+  background: #ffd90f;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
 
 #faq h1 {
   color: #0a0a0a;
@@ -958,7 +1161,16 @@ body {
   .faq-judul2 {
     border-radius: 20px;
     background: #c23939;
-    color: #fff;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .faq-judul3 {
+    border-radius: 20px;
+    background: #ffd90f;
+    color: #000;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -1043,5 +1255,10 @@ body {
 
 .bg-faq2 {
   background: #c23939;
+}
+
+.bg-faq3 {
+  background: #ffd90f;
+  color: #000;
 }
 /* FAQ end__________________________________________ */
