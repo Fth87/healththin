@@ -126,6 +126,10 @@ body {
   border-radius: 20px;
   background: #692727;
 }
+.welcome7 {
+  border-radius: 20px;
+  background: #d26500;
+}
 
 .sepeda {
   object-fit: cover;
@@ -360,6 +364,12 @@ body {
   color: white;
 }
 
+.bg-green {
+  background: #7BD252;
+  
+  color: white;
+}
+
 .bg-purple {
   background: #7353d9;
   color: white;
@@ -473,6 +483,12 @@ body {
   font-style: normal;
   font-weight: 600;
 }
+.isi-todo-7 {
+  color: #ffd90f;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
 .isi-todo-23 {
   color: #c23939;
   font-size: 24px;
@@ -492,9 +508,27 @@ body {
   padding: 20px 15px;
   margin: 0px 24px;
 }
+.isi2-todo7 {
+  border-radius: 20px;
+  background: #ffd90f;
+
+  padding: 20px 15px;
+  margin: 0px 24px;
+}
 
 .isi2-todo-22 svg {
   margin-left: 8px;
+}
+.isi2-todo7 svg {
+  margin-left: 8px;
+}
+
+.isi2-todo7 p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .isi2-todo22 p {
@@ -685,6 +719,12 @@ body {
   width: 150px;
   z-index: 20;
 }
+.tapa {
+  bottom: -1px;
+  right: -59px;
+  width: 150px;
+  z-index: 20;
+}
 
 .lope {
   top: -22px;
@@ -714,6 +754,12 @@ body {
   top: -49px;
   right: -70px;
   width: 250px;
+  z-index: 20;
+}
+.matahari {
+  top: -67px;
+  left: -79px;
+  width: 150px;
   z-index: 20;
 }
 .monyet {
@@ -791,16 +837,16 @@ body {
     margin: 0;
   }
 
-  .home5 {
-    border-radius: 25px;
-    max-height: 100%;
-    width: auto;
-  }
-
   .sipjempol {
     top: -22px;
     right: -70px;
     width: 200px;
+    z-index: 20;
+  }
+  .tapa {
+    bottom: -1px;
+    right: -180px;
+    width: 335px;
     z-index: 20;
   }
   .jempoltos {
@@ -921,10 +967,23 @@ body {
     font-style: normal;
     font-weight: 600;
   }
+  .isi-todo-7 {
+    color: #ffd90f;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+  }
 
   .isi2-todo22 {
     border-radius: 20px;
     background: #4e37b3;
+    padding: 20px 15px;
+    margin: 0px 24px;
+  }
+  .isi2-todo7 {
+    border-radius: 20px;
+    background: #ffd90f;
+
     padding: 20px 15px;
     margin: 0px 24px;
   }
@@ -945,6 +1004,9 @@ body {
   .isi2-todo-2 svg {
     margin-left: 8px;
   }
+  .isi2-todo7 svg {
+    margin-left: 8px;
+  }
 
   .isi2-todo2 p {
     color: #fff;
@@ -959,6 +1021,13 @@ body {
 
   .isi2-todo22 p {
     color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .isi2-todo7 p {
+    color: #000;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -1211,6 +1280,11 @@ body {
     top: -30px;
     right: -117px;
     width: 300px;
+  }
+  .home5 {
+    border-radius: 25px;
+    max-height: 100%;
+    width: auto;
   }
 }
 
