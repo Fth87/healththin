@@ -138,11 +138,24 @@ body {
   border-radius: 20px;
   background: #1d7321;
 }
+.welcome9 {
+  border-radius: 20px;
+  background: #0a044b;
+}
+
+.milkyway {
+  max-height: 300px;
+}
 
 .sepeda {
   object-fit: cover;
   border-radius: 25px;
   object-position: center;
+}
+.milkywayimg {
+  object-fit: cover;
+  border-radius: 25px;
+  object-position: bottom;
 }
 
 .welcome-container {
@@ -196,6 +209,13 @@ body {
   font-style: normal;
   font-weight: 600;
 }
+.welcome-isi9 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+}
 
 .welcome-isi p {
   color: #fff;
@@ -242,10 +262,26 @@ body {
   background: #e4bb50;
   overflow: hidden;
 }
+#home .jam3 {
+  border-radius: 20px;
+  background: #090808;
+  overflow: hidden;
+  background-image: url(public/images/starr.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 
 .jam2 p {
   color: #000;
   font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.jam3 p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
 }
@@ -258,10 +294,20 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
+  .milkyway {
+    max-height: 100%;
+  }
   .welcome-isi4 {
     color: #fff;
     font-family: Poppins;
     font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .welcome-isi9 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 70px;
     font-style: normal;
     font-weight: 600;
   }
@@ -285,6 +331,14 @@ body {
     color: #000;
 
     font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .jam3 p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 96px;
     font-style: normal;
     font-weight: 700;
   }
@@ -313,6 +367,10 @@ body {
 
 .home2 {
   /* height: 100%; */
+}
+
+.home9 {
+  min-height: 200px;
 }
 
 .home3 {
@@ -353,6 +411,14 @@ body {
   font-style: normal;
   font-weight: 500;
 }
+.todo-judul9 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  left: 21px;
+  top: 15px;
+}
 
 .todo-header {
   color: #fff;
@@ -374,6 +440,12 @@ body {
 
 .bg-green {
   background: #7bd252;
+
+  color: white;
+}
+.bg-green2 {
+  border-radius: 20px;
+  background: #1d7321;
 
   color: white;
 }
@@ -868,6 +940,9 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
+  .home9 {
+    min-height: 400px;
+  }
   .isi-todo-6 {
     color: #c23939;
     font-family: Poppins;
